@@ -1,8 +1,4 @@
 library(readxl)
-
-ReAnalysisResult2019Guo_FirstSet.xlsx
-ReAnalysisResult2019Guo_SecondSet.xlsx
-
 setwd("//mcrfnas2/bigdata/Genetic/Projects/shg047/rheumatology/cytokine")
 
 ref<-read.table("//mcrfnas2/bigdata/Genetic/Projects/shg047/db/hg19/refGene.hg19.bed")
@@ -49,4 +45,33 @@ ManhattanmyDMP<-function(myDMP,filename){
   pQQ(P, nlabs =length(P), conf = 0.95)
   dev.off()
 }
+
+
+######################################################
+library(readxl)
+setwd("//mcrfnas2/bigdata/Genetic/Projects/shg047/rheumatology/cytokine")
+ref<-read.table("//mcrfnas2/bigdata/Genetic/Projects/shg047/db/hg19/refGene.hg19.bed")
+colnames(ref)<-c("CHROM","MAPINFO","END","Chain","NMID","Symbol")
+data1<-data.frame(read_excel("IL17A.xlsx",sheet = 1))
+data2<-data.frame(read_excel("IL17A.xlsx",sheet = 2))
+head(data1)
+head(data2)
+input<-data.frame(data1,data2[match(data1$Gene,data2$Gene),])
+head(input)
+out<-subset(input,Pvalue<5*10^-2 & FCP<5*10^-2)
+write.csv(out,file="IL17A.csv")
+
+
+data1<-data.frame(read_excel("IL23.xlsx",sheet = 1))
+data2<-data.frame(read_excel("IL23.xlsx",sheet = 2))
+input<-data.frame(data1,data2[match(data1$Gene,data2$Gene),])
+head(input)
+out<-subset(input,Pvalue<5*10^-2 & FCP<5*10^-2)
+out
+write.csv(out,file="IL23.csv")
+
+
+
+
+
 
