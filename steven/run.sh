@@ -1,6 +1,8 @@
 cd /gpfs/home/guosa/hpc/project/pmrp/
 mkdir cytokine
-cd cytokine
+
+cd /gpfs/home/guosa/hpc/project/pmrp/cytokine
+
 # find the raw phase 2 PMRP plink dataset
 cd /gpfs/home/guosa/hpc/project/pmrp/phase1
 touch -m FinalRelease_QC_20140311_Team1_Marshfield.bim
