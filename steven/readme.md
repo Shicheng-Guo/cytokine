@@ -1,5 +1,6 @@
 ### The Genetics of TH17 Signaling Cytokines: Interleukin-23 and Interleukin-17A
 
+* 12/06/2019: Merge with exome1 and exom2 and check the [IT-re-mapped id](SCH101411_Crosswalk.csv) again 
 * 12/06/2019: Michigan imputation completed and saved ``
 * [ID updated](SCH101411_Crosswalk.csv) (12/05/2019): IT department provided wrong ID information and I found them when QC 
 * Steven show the raw `illumina 660W (hg18)`data ((12/03/2019)): `/mnt/bigdata/Genetic/Projects/Schrodi_TH17`
