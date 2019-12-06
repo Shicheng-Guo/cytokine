@@ -1,5 +1,5 @@
 ### The Genetics of TH17 Signaling Cytokines: Interleukin-23 and Interleukin-17A
-* Steve find the validation raw data saved in `\\mcrfnas2\BigData\StudyData\SCH10411`
+* 12/06/2019: Steve find the validation raw data saved in `\\mcrfnas2\BigData\StudyData\SCH10411`
 * 12/06/2019: Merge with exome1 and exom2 and check the [IT-Remapped id](SCH101411_Crosswalk.csv) again 
 * 12/06/2019: Michigan imputation completed and saved `~/hpc/project/pmrp/cytokine/michigan`
 * 12/05/2019: Update cytokine data from hg18 to hg19 so that we can doimputation and phasing with Michigan-Server.
