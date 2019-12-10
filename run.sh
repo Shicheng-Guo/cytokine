@@ -49,7 +49,6 @@ tabix -p vcf FinalRelease_QC_20140311_Team1_Marshfield.vcf.gz
 
 ##### 2019/10/12
 # copy the raw data from vascod's origin fold.
-
 cd /gpfs/home/guosa/hpc/project/pmrp/cytokine/set1/hg18
 cp /mnt/bigdata/Center/CHG/vascod/th17/support_files/th17.map ./
 cp /mnt/bigdata/Center/CHG/vascod/th17/support_files/th17.ped ./
