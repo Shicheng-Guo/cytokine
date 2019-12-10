@@ -46,3 +46,17 @@ bcftools view FinalRelease_QC_20140311_Team1_Marshfield.vcf -Oz -o FinalRelease_
 tabix -p vcf FinalRelease_QC_20190311_Team1_Marshfield.vcf.gz
 tabix -p vcf FinalRelease_QC_20140311_Team1_Marshfield.vcf.gz
 
+
+##### 2019/10/12
+cd /gpfs/home/guosa/hpc/project/pmrp/cytokine/set1/hg18
+cp /mnt/bigdata/Center/CHG/vascod/th17/support_files/th17.map ./
+cp /mnt/bigdata/Center/CHG/vascod/th17/support_files/th17.ped ./
+
+setwd("/gpfs/home/guosa/hpc/project/pmrp/cytokine/vascod")
+d1<-read.table("input.txt",sep="\t",head=T)
+d2<-read.table("th17.fam")
+d<-d2[d2[,2] %in% d1[,3],]  
+write.table(d,file="mylist1015.txt",sep="\t",quote=F,col.names =F, row.names = F)
+plink --file th17 --keep mylist1015.txt --make-bed --out ../Th17Set1
+
+
