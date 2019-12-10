@@ -1,8 +1,8 @@
 ### The Genetics of TH17 Signaling Cytokines: Interleukin-23 and Interleukin-17A
 
-Set1: 1015 samples (hg18 -> hg19 and cross-map with PMRP1 and PMRP2 exome-array)
+Set1: 1015 samples (660W,hg18 -> hg19 and cross-map with PMRP1 and PMRP2 exome-array)
 
-Set2: 1000 samples (hg18 -> hg19 and cross-map with PMRP1 and PMRP2 exome-array)
+Set2: 1000 samples (660W,hg18 -> hg19 and cross-map with PMRP1 and PMRP2 exome-array)
 
 Timeline:
 
