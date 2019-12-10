@@ -7,7 +7,7 @@ Dataset:
 
 Timeline:
 
-* 12/10/2019: Set1 data were coverted to hg19 from hg18 and saved `/gpfs/home/guosa/hpc/project/pmrp/cytokine/set1/hg19`
+* 12/10/2019: Set1 data were coverted to hg19 from hg18 `/gpfs/home/guosa/hpc/project/pmrp/cytokine/set1/hg19`
 * 12/10/2019: We find the Set1 samples (N=1015) and I saved in `/gpfs/home/guosa/hpc/project/pmrp/cytokine`
 * 12/06/2019: Steve find raw data for another 1170 samples saved in `/mnt/bigdata/StudyData/SCH10411/SecondStage/`
 * 12/06/2019: Merge with exome1 and exom2 and check the [IT-Remapped id](SCH101411_Crosswalk.csv) again 
