@@ -1,4 +1,5 @@
 ### The Genetics of TH17 Signaling Cytokines: Interleukin-23 and Interleukin-17A
+* 12/10/2019: We finally find the Set1 samples (N=1015) and I saved in `/gpfs/home/guosa/hpc/project/pmrp/cytokine/set1`
 * 12/06/2019: Steve find raw data for another 1170 samples saved in `/mnt/bigdata/StudyData/SCH10411/SecondStage/`
 * 12/06/2019: Merge with exome1 and exom2 and check the [IT-Remapped id](SCH101411_Crosswalk.csv) again 
 * 12/06/2019: Michigan imputation completed and saved `~/hpc/project/pmrp/cytokine/michigan`
