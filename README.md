@@ -6,7 +6,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-
+* [692 samples](extdata/cytokine_set2_pmrp.chr22ibd.matchid.csv) in set2 were occured in PMRP exome-chip
 * 12/10/2019: Set1 data were coverted to hg19 from hg18 `/gpfs/home/guosa/hpc/project/pmrp/cytokine/set1/hg19`
 * 12/10/2019: We find the Set1 samples (N=1015) and I saved in `/gpfs/home/guosa/hpc/project/pmrp/cytokine`
 * 12/06/2019: Steve find raw data for another 1170 samples saved in `/mnt/bigdata/StudyData/SCH10411/SecondStage/`
