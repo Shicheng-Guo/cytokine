@@ -7,6 +7,7 @@ Dataset:
 
 Timeline:
 
+* Meet with Steven and discuss: 1) transforms of the cytokine measurements and 2) network approaches.
 * Overall IBD analysis to [set1](extdata/cytokine_set2_pmrp.genome.ibd) and [set2](extdata/cytokine_set2_pmrp.genome.ibd) since these two file provide more information to show repeat sample in PMRP
 * 12/12/2019: [694 samples](extdata/cytokine_set1_pmrp.ibd.matchid.csv) in set1 were occured in PMRP exome-chip `~/hpc/project/pmrp/cytokine/set1`
 * 12/11/2019: [671 samples](extdata/cytokine_set2_pmrp.ibd.matchid.csv) in set2 were occured in PMRP exome-chip`~/hpc/project/pmrp/cytokine/set2`
