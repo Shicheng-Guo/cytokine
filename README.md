@@ -31,5 +31,5 @@ Timeline:
 
 Data analysis flow-chart was as the following
 
-![](../RnaseqBacterial/gene-expression-quantification-pipeline-v2.png)
+![](https://github.com/Shicheng-Guo/RnaseqBacterial/blob/master/gene-expression-quantification-pipeline-v2.png)
 
