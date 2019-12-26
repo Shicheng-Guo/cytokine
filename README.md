@@ -5,7 +5,6 @@ Dataset:
 * Set1: [1015 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
-
 Timeline:
 * Alignment(sam/bam) are saved in `\\mcrfnas2\bigdata\Genetic\Projects\shg047\project\pmrp\cytokine\rnaseq\bam`
 * 12/26: RNA-seq alignment job submited, applying [STAR pipeline (2-pass)](https://groups.google.com/forum/#!msg/rna-star/4dhcEGFMiK0/XoMh6rB7CwAJ) for alignment same with GTEx and TCGA
