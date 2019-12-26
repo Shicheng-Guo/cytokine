@@ -6,7 +6,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-* 12/26/2019: received RNA-seq data: `/mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data`
+* 12/26: received RNA-seq data: `/mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data`
 * 12/18/2019: run the linear regression with exome-chip data as the gentoyping input
 * Meet with Steven and discuss: 1) transforms of the cytokine measurements and 2) network approaches.
 * Overall IBD analysis to [set1](extdata/cytokine_set2_pmrp.genome.ibd) and [set2](extdata/cytokine_set2_pmrp.genome.ibd) since these two file provide more information to show repeat sample in PMRP
