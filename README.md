@@ -6,7 +6,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-* 12/26: RNA-seq alignment job submited. we are applying STAR pipeline (2-pass) for alignment same with GTEx and TCGA
+* 12/26: RNA-seq alignment job submited, applying STAR pipeline (2-pass) for alignment same with GTEx and TCGA
 * 12/26/2019: we received [484 raw RNA-seq files](filename2.txt) and [472 unqiue file](filename.unique.txt) and ID connection file (filename to samplename).
 * 12/26/2019:file quality checking: [6 samples (12 files)](extdata/rnaseq/repeatsample.csv) have duplicate fastq files, such as: UW025Curdlan_CGATGT_L007 
 * 12/26: received RNA-seq data: `/mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data`
