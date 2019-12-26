@@ -6,6 +6,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
+* file quality checking: [6 samples](./extdata/ranseq/) have duplicate fastq files, such as: UW025Curdlan_CGATGT_L007 in AC907MANXX and AC90KJANXX
 * 12/26: received RNA-seq data: `/mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data`
 * 12/18/2019: run the linear regression with exome-chip data as the gentoyping input
 * Meet with Steven and discuss: 1) transforms of the cytokine measurements and 2) network approaches.
