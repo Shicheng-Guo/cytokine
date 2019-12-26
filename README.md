@@ -26,3 +26,10 @@ Timeline:
 * Steven show the raw `illumina 660W (hg18)`data ((12/03/2019)): `/mnt/bigdata/Genetic/Projects/Schrodi_TH17`
 * [588 samples](overlapSample.txt) were repeated genotyped in phase 1 and phase 2 by this sample id
 * GWAS raw data were saved in `/mnt/bigdata/Genetic/Projects/Harold/GWAS_data_merge`
+
+#### Footnote:
+
+Data analysis flow-chart was as the following
+
+![](gene-expression-quantification-pipeline-v2.png)
+
