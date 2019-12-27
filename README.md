@@ -5,6 +5,10 @@ Dataset:
 * Set1: [1015 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
+Manuscript:
+
+27/12/2019: 75% done!
+
 Timeline:
 
 * 12/27: Expectation-Maximization algorithm for Allele-Specific Expression http://churchill-lab.github.io/emase/
