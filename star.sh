@@ -18,6 +18,8 @@ mkdir AC90KJANXX
 mkdir AC907MANXX
 
 cd /mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data/AC90P8ANXX
+cd /mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data/AC907MANXX
+cd /mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants/RNAseq_macrophages/Data/AC90KJANXX
 mkdir temp
 OPTS_P1="--outReadsUnmapped Fastx --outSAMtype BAM SortedByCoordinate --limitBAMsortRAM 100000000000 --genomeLoad LoadAndKeep --seedSearchStartLmax 8 --outFilterMultimapNmax 100 --outFilterMismatchNoverLmax 0.5"
 DBDIR=~/hpc/db/hg19/STAR
@@ -37,6 +39,8 @@ echo cd $(pwd) >> $i.job
 #echo samtools sort $i.bam -o $i.sorted.bam >> $i.job
 #echo samtools mpileup -uf ~/hpc/db/hg19/hg19.db $i.sorted.bam \| bcftools view -Ov - \> $i.bcf >> $i.job
 #echo samtools depth $i.sorted.bam \> $i.wig >> $i.job
-echo STAR --runThreadN 24 --outBAMsortingThreadN 6 $ZCAT --genomeDir $DBDIR --outFileNamePrefix ~/hpc/project/pmrp/cytokine/rnaseq/bam/AC90P8ANXX/$i --readFilesIn $i\_R1_001.fastq.gz $i\_R2_001.fastq.gz >> $i.job
+# echo STAR --runThreadN 24 $OPTS_P1 --outBAMsortingThreadN 6 $ZCAT --genomeDir $DBDIR --outFileNamePrefix ~/hpc/project/pmrp/cytokine/rnaseq/bam/AC90P8ANXX/$i --readFilesIn $i\_R1_001.fastq.gz $i\_R2_001.fastq.gz >> $i.job
+# echo STAR --runThreadN 24 --outSAMtype BAM SortedByCoordinate --outBAMsortingThreadN 6 $ZCAT --genomeDir $DBDIR --outFileNamePrefix ~/hpc/project/pmrp/cytokine/rnaseq/bam/AC907MANXX/$i --readFilesIn $i\_R1_001.fastq.gz $i\_R2_001.fastq.gz >> $i.job
+echo STAR --runThreadN 24 --outSAMtype BAM SortedByCoordinate --outBAMsortingThreadN 6 $ZCAT --genomeDir $DBDIR --outFileNamePrefix ~/hpc/project/pmrp/cytokine/rnaseq/bam/AC90KJANXX/$i --readFilesIn $i\_R1_001.fastq.gz $i\_R2_001.fastq.gz >> $i.job
 qsub  $i.job
 done
