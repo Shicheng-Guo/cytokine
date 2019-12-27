@@ -7,7 +7,7 @@ Dataset:
 
 Timeline:
 
-* first 62 samples's alignment completed with [mapping ratio from 82% to 91%](/extdata/rnaseq/mappingratio.csv) indicating high quality of library. 
+* first 62 samples's alignment completed with [mapping ratio from 82% to 91%](/extdata/rnaseq/mappingratio.csv) indicating high quality of the library. 
 * Alignment(sam/bam) are saved in `\\mcrfnas2\bigdata\Genetic\Projects\shg047\project\pmrp\cytokine\rnaseq\bam`
 * 12/26: RNA-seq [alignment job](star.sh) submited, applying [STAR pipeline (2-pass)](https://groups.google.com/forum/#!msg/rna-star/4dhcEGFMiK0/XoMh6rB7CwAJ) for alignment same with GTEx and TCGA
 * 12/26/2019: we received [484 raw RNA-seq files](filename2.txt) and [472 unqiue file](filename.unique.txt) and ID connection file (filename to samplename).
