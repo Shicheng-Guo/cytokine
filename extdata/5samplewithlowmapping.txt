@@ -1,0 +1,5 @@
+MC135Curdlan_CGATGT_L003Log.final.out:	Uniquely	13.66%
+UW039LPS_GTTTCG_L005Log.final.out:	Uniquely	23.64%
+UW024Curdlan_ACTGAT_L006Log.final.out:	Uniquely	41.67%
+UW012NT_TAGCTT_L004Log.final.out:	Uniquely	54.23%
+MC122Curdlan_GGCTAC_L005Log.final.out:	Uniquely	55.14%
