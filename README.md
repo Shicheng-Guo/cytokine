@@ -7,6 +7,7 @@ Dataset:
 
 Timeline:
 
+* 2020/01/06: bam files were saved in `/home/guosa/hpc/project/pmrp/cytokine/rnaseq/bam`
 * 12/27: Expectation-Maximization [algorithm](https://www.rna-seqblog.com/hierarchical-analysis-of-rna-seq-reads-improves-the-accuracy-of-allele-specific-expression/) for Allele-Specific Expression http://churchill-lab.github.io/emase/
 * 12/27: first 62 samples completed with [mapping ratio from 82% to 91%](/extdata/rnaseq/mappingratio.csv) indicating high quality of the library. 
 * 12/27: Alignment(bam) are saved in `\\mcrfnas2\bigdata\Genetic\Projects\shg047\project\pmrp\cytokine\rnaseq\bam`
