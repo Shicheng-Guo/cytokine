@@ -7,6 +7,7 @@ Dataset:
 
 Timeline:
 
+* 2020/01/06: remove 5 samples with <60% mapping ratio. these 5 samples were saved in [here](./extdata/5samplewithlowmapping.txt)
 * 2020/01/06: bam files were saved in `/home/guosa/hpc/project/pmrp/cytokine/rnaseq/bam`
 * 12/27: Expectation-Maximization [algorithm](https://www.rna-seqblog.com/hierarchical-analysis-of-rna-seq-reads-improves-the-accuracy-of-allele-specific-expression/) for Allele-Specific Expression http://churchill-lab.github.io/emase/
 * 12/27: first 62 samples completed with [mapping ratio from 82% to 91%](mappingratio.csv) indicating high quality of the library. 
