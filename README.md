@@ -6,7 +6,9 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-* 2020/01/07: Steven updated the [phenotype files for the RNA-seq](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap_2019.xlsx)
+
+* The NT refers to “no treatment.”  The Curdlan is the curdlan treatment on the cells.  The LPS is the LPS treatment on the cells
+* 2020/01/07: Steven updated the [phenotype files for the RNA-seq](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap_2019.xlsx) in which NT, Curdian and LPS is treatment.
 * 2020/01/06: remove 5 samples with <60% mapping ratio. these 5 samples were saved in [here](./extdata/5samplewithlowmapping.txt)
 * 2020/01/06: bam files were saved in `/home/guosa/hpc/project/pmrp/cytokine/rnaseq/bam`
 * 12/27: Expectation-Maximization [algorithm](https://www.rna-seqblog.com/hierarchical-analysis-of-rna-seq-reads-improves-the-accuracy-of-allele-specific-expression/) for Allele-Specific Expression http://churchill-lab.github.io/emase/
