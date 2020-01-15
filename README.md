@@ -7,7 +7,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-
+* 01/14: Library type: http://onetipperday.sterding.com/2012/07/how-to-tell-which-library-type-to-use.html
 * 01/14: library format: paired-end, relative orientation : inward and strandedness : unstranded 
 * 01/13: check more details and examples how to use STAR: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
 * 01/12: instal `salmon` to infer unstranded or stranded RNA-seq library: https://github.com/COMBINE-lab/salmon.git
