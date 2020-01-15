@@ -7,7 +7,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-* instal salmon to infer the sequencing strategy like unstranded or stranded: https://github.com/COMBINE-lab/salmon.git
+* instal salmon to infer unstranded or stranded RNA-seq library: https://github.com/COMBINE-lab/salmon.git
 * don't forget to change 1,2,3,... to chr1, chr2, chr3 in download gtf files since genome fa is chr1, chr2, chr3
 * `wget http://ftp.ensemblorg.ebi.ac.uk/pub/grch37/release-98/gtf/homo_sapiens/Homo_sapiens.GRCh37.87.gtf.gz`
 * The NT refers to “no treatment.”  The Curdlan is the curdlan treatment to cells. LPS is the LPS treatment on the cells
