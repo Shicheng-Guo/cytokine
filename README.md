@@ -8,12 +8,12 @@ Dataset:
 
 Timeline:
 
-* check more details and examples how to use STAR: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
-* instal salmon to infer unstranded or stranded RNA-seq library: https://github.com/COMBINE-lab/salmon.git
-* don't forget to change 1,2,3,... to chr1, chr2, chr3 in download gtf files since genome fa is chr1, chr2, chr3
+* 01/13: check more details and examples how to use STAR: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
+* 01/12: instal salmon to infer unstranded or stranded RNA-seq library: https://github.com/COMBINE-lab/salmon.git
+* 01/11: don't forget to change 1,2,3,... to chr1, chr2, chr3 in download gtf files since genome fa is chr1, chr2, chr3
 * `wget http://ftp.ensemblorg.ebi.ac.uk/pub/grch37/release-98/gtf/homo_sapiens/Homo_sapiens.GRCh37.87.gtf.gz`
-* The NT refers to “no treatment.”  The Curdlan is the curdlan treatment to cells. LPS is the LPS treatment on the cells
-* Recent STAR manual located: https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
+* 01/09: The NT refers to “no treatment.”  The Curdlan is the curdlan treatment to cells. LPS is the LPS treatment on the cells
+* 01/08: Recent STAR manual located: https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
 * 2020/01/07: Steven updated the [phenotype files for the RNA-seq](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap_2019.xlsx) in which NT, Curdian and LPS is treatment.
 * 2020/01/06: remove 5 samples with <60% mapping ratio. these 5 samples were saved in [here](./extdata/5samplewithlowmapping.txt)
 * 2020/01/06: bam files were saved in `/home/guosa/hpc/project/pmrp/cytokine/rnaseq/bam`
