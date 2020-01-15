@@ -9,6 +9,7 @@ Dataset:
 Timeline:
 
 * The NT refers to “no treatment.”  The Curdlan is the curdlan treatment to cells. LPS is the LPS treatment on the cells
+* Recent STAR manual located: https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
 * 2020/01/07: Steven updated the [phenotype files for the RNA-seq](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap_2019.xlsx) in which NT, Curdian and LPS is treatment.
 * 2020/01/06: remove 5 samples with <60% mapping ratio. these 5 samples were saved in [here](./extdata/5samplewithlowmapping.txt)
 * 2020/01/06: bam files were saved in `/home/guosa/hpc/project/pmrp/cytokine/rnaseq/bam`
