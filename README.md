@@ -7,6 +7,8 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
+
+* check more details and examples how to use STAR: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
 * instal salmon to infer unstranded or stranded RNA-seq library: https://github.com/COMBINE-lab/salmon.git
 * don't forget to change 1,2,3,... to chr1, chr2, chr3 in download gtf files since genome fa is chr1, chr2, chr3
 * `wget http://ftp.ensemblorg.ebi.ac.uk/pub/grch37/release-98/gtf/homo_sapiens/Homo_sapiens.GRCh37.87.gtf.gz`
