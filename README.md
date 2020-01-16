@@ -7,6 +7,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
+* * 01/16: StringTie is better than Cufflinks, IsoLasso, Scripture and Traph as [Nature Biotechnology](https://www.nature.com/articles/nbt.3122) mentioned
 * 01/14: Library type: http://onetipperday.sterding.com/2012/07/how-to-tell-which-library-type-to-use.html
 * 01/14: library format: paired-end, relative orientation : inward and strandedness : unstranded 
 * 01/13: check more details and examples how to use STAR: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
