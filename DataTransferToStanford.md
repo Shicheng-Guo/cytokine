@@ -18,4 +18,7 @@ OTHER USEFUL INFORMATION LIKE:
 
 MORE INFORMATION CAN BE FOUND HERE: https://github.com/Shicheng-Guo/cytokine/blob/master/README.md
 
-md5 file can be [download here]()
+BAM files saved in: \\mcrfnas2\bigdata\Genetic\Projects\shg047\project\pmrp\cytokine\rnaseq\bam
+FASTQ files saved in: \\mcrfnas2\bigdata\Genetic\Projects\Schrodi_IL23_IL17_variants\RNAseq_macrophages\Data
+
+md5 file for FASTQ can be [download here]()
