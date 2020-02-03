@@ -1,4 +1,4 @@
-Data Transfer To STANFORD
+### Data Transfer To STANFORD
 
 We generated RNA-seq data to 79 unique human cells with 3 different condation: NULL, LPS_Treatment and Curdlan_Treatment. Each sample have 3 condation and it is pair-end sequencing (R1 and R2), therefore, totally, we have 79x3x2=472 files. 
 
