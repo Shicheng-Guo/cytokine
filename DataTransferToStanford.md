@@ -7,16 +7,13 @@ We generated RNA-seq data to 79 unique human cells with 3 different condation: N
 
 Take MC136NT_TGACCA_L003_R2_001.fastq.gz as example: 
 
-1) MC136NT:  Sample ID is MC136, NT indicates No Treatment (NULL)
-
-2) R2 indicates it is second reads of pair-wise sequencing. 
-
-3) MC136NT_TGACCA_L003_R1_001.fastq.gz is paired files with MC136NT_TGACCA_L003_R1_001.fastq.gz
+* 1) MC136NT:  Sample ID is MC136, NT indicates No Treatment (NULL)
+* 2) R2 indicates it is second reads of pair-wise sequencing. 
+* 3) MC136NT_TGACCA_L003_R1_001.fastq.gz is paired files with MC136NT_TGACCA_L003_R1_001.fastq.gz
 
 
 OTHER USEFUL INFORMATION LIKE: 
-01/14: library format: paired-end, relative orientation : inward and strandedness : unstranded
-
-12/27: first 62 samples completed with mapping ratio from 82% to 91% indicating high quality of the library.
+* 01/14: library format: paired-end, relative orientation : inward and strandedness : unstranded
+* 12/27: first 62 samples completed with mapping ratio from 82% to 91% indicating high quality of the library.
 
 MORE INFORMATION CAN BE FOUND HERE: https://github.com/Shicheng-Guo/cytokine/blob/master/README.md
