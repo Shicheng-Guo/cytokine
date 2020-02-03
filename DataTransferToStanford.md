@@ -21,4 +21,10 @@ MORE INFORMATION CAN BE FOUND HERE: https://github.com/Shicheng-Guo/cytokine/blo
 BAM files saved in: \\mcrfnas2\bigdata\Genetic\Projects\shg047\project\pmrp\cytokine\rnaseq\bam
 FASTQ files saved in: \\mcrfnas2\bigdata\Genetic\Projects\Schrodi_IL23_IL17_variants\RNAseq_macrophages\Data
 
-md5 file for FASTQ can be [download here]()
+All the fastq files were saved in 3 folders: 
+
+* md5sum *.fastq.gz > ../AC90P8ANXX.md5
+* md5sum *.fastq.gz > ../AC907MANXX.md5
+* md5sum *.fastq.gz > ../AC90KJANXX.md5
+ 
+ Three md5 files for FASTQ can be [download here]()
