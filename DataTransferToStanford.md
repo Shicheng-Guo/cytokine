@@ -17,3 +17,5 @@ OTHER USEFUL INFORMATION LIKE:
 * 12/27: first 62 samples completed with mapping ratio from 82% to 91% indicating high quality of the library.
 
 MORE INFORMATION CAN BE FOUND HERE: https://github.com/Shicheng-Guo/cytokine/blob/master/README.md
+
+md5 file can be [download here]()
