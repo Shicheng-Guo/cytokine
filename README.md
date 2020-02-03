@@ -7,7 +7,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
-* 02/03/2020: generate readme files and transfer the data to stanford university, readme file is saved [here](DataTransferToStanford.md)
+* 02/03/2020: generate [readme](DataTransferToStanford.md) files and transfer the data to stanford university, readme file is saved [here](DataTransferToStanford.md)
 * 02/02/2020: [RSEM](https://deweylab.github.io/RSEM/) (RNA-Seq by Expectation-Maximization) pipeline followed by STAR can be downloaded [here](https://deweylab.github.io/RSEM/)
 * 01/16: [62% reads]((./extdata/fastqscreen/cytokine.rnaseq.readsdistribution.uniquehit.csv)) have unique human transcriptome hits and [15.8% reads](./extdata/fastqscreen/cytokine.rnaseq.readsdistribution.multiplehit.csv) have multiple hit in human genome. 
 * fastqscreen: `\\mcrfnas2\bigdata\Genetic\Projects\shg047\project\pmrp\cytokine\rnaseq\fastq\fastqscreen`
