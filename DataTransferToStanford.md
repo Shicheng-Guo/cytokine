@@ -28,3 +28,19 @@ All the fastq files were saved in 3 folders:
 * md5sum *.fastq.gz > ../AC90KJANXX.md5
  
  Three md5 files for FASTQ can be [download here]()
+
+* How to install RSEM in HPC
+```
+cd /gpfs/home/guosa/hpc/tools
+git clone https://github.com/bli25broad/RSEM_tutorial.git
+cd software
+unzip bowtie2-2.2.6-source.zip
+cd bowtie2-2.2.6
+make -j 8
+cd ..
+tar -xzf RSEM-1.2.25.tar.gz
+cd RSEM-1.2.25
+make -j 8
+make ebseq
+export /gpfs/home/guosa/hpc/tools/RSEM_tutorial/software/RSEM-1.2.25
+```
