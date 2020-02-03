@@ -42,5 +42,5 @@ tar -xzf RSEM-1.2.25.tar.gz
 cd RSEM-1.2.25
 make -j 8
 make ebseq
-export /gpfs/home/guosa/hpc/tools/RSEM_tutorial/software/RSEM-1.2.25
+export PATH="/gpfs/home/guosa/hpc/tools/RSEM_tutorial/software/RSEM-1.2.25:$PATH"
 ```
