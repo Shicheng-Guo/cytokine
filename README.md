@@ -1,6 +1,5 @@
 ### The Genetics of TH17 Signaling Cytokines: Interleukin-23 and Interleukin-17A
 
-
 Dataset:
 
 * Set1: [1015 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
