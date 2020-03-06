@@ -6,6 +6,7 @@ Dataset:
 * Set2: [1000 samples](./extdata/660w/readme.md) (660W,hg18 -> hg19 and cross-mapping with PMRP1 and PMRP2 exome-array)
 
 Timeline:
+* 03/05/2020: Steven share some previous analysis result again and I saved them in the manuscript folder
 * 02/04/2020: [md5sum](https://github.com/Shicheng-Guo/cytokine/tree/master/extdata/fastq) for all the 79 samples 2x79 fastq.gz files when transfering to Stanford
 * 02/03/2020: generate [readme](DataTransferToStanford.md) files and transfer the data to stanford university, readme file is saved [here](DataTransferToStanford.md)
 * 02/02/2020: [RSEM](https://deweylab.github.io/RSEM/) (RNA-Seq by Expectation-Maximization) pipeline followed by STAR can be downloaded [here](https://deweylab.github.io/RSEM/)
